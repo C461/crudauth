@@ -1,7 +1,6 @@
 import app from "./app.js";
 import { connectDB } from "./db.js";
-
-const cors = require("cors");
+import cors from "cors";
 
 const corsOptions = {
   origin: [
