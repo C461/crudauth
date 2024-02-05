@@ -6,6 +6,7 @@ const corsOptions = {
   origin: [
     "https://crudfront1-production.up.railway.app/register ",
     "https://crudfront1-production.up.railway.app/login",
+    "https://crudfront1-production.up.railway.app/tasks"
   ],
   credentials: true,
 };
