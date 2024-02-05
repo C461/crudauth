@@ -1,17 +1,5 @@
 import app from "./app.js";
 import { connectDB } from "./db.js";
-import cors from "cors";
-
-const corsOptions = {
-  origin: [
-    "https://crudfront1-production.up.railway.app/register ",
-    "https://crudfront1-production.up.railway.app/login",
-    "https://crudfront1-production.up.railway.app/tasks"
-  ],
-  credentials: true,
-};
-
-app.use(cors(corsOptions));
 
 const port = process.env.PORT || 4000;
 try {
